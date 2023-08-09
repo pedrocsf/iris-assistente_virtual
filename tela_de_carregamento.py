@@ -57,7 +57,7 @@ class TimerApp:
         self.simular_progresso()
 
         # Função que fecha a janela após o tempo determinado
-        #self.root.after(self.tempo_para_fechar, self.fechar_janela)
+        self.root.after(self.tempo_para_fechar, self.fechar_janela)
 
         self.root.resizable(False, False)
         self.root.mainloop()
